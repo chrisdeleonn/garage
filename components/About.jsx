@@ -11,17 +11,18 @@ const About = () => {
 					<h2 className="py-4">Who I Am</h2>
 					<p className="py-2 text-gray-600">// The story starts here...</p>
 					<p>
-						In 2021, I traveled to Boca Raton, Florida for a Software engineer
-						bootcamp. A month later, I landed my first job at a local fintech
-						company. I switched roles as a technical recruiter. And now I'm back
-						in engineering again 💻 Welcome!
+						Originally from Dallas, Texas. In 2021, I traveled to Boca Raton,
+						Florida for a Software engineer bootcamp. A month later, I landed my
+						first job at a local fintech company. I switched roles as a
+						technical recruiter. And now I'm back in engineering again 💻
+						Welcome!
 					</p>
 					<p className="py-2 text-gray-600 underline cursor-pointer">
 						Check out some of my latest projects
 					</p>
 				</div>
-				<div>
-					<img src="/../assets/house_me.jpg" alt="/" />
+				<div className=" w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify center p-4 hover:scale-105 ease-in duration-300">
+					<img className="rounded-xl" src="/../assets/house_me.jpg" alt="/" />
 				</div>
 			</div>
 		</div>
