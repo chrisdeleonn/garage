@@ -5,7 +5,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Main = () => {
 	return (
-		<div className="w-full h-screen text-center">
+		<div id="main" className="w-full h-screen text-center">
 			<div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
 				<div>
 					<p className="uppercase text-sm tracking-widest text-gray-600">
@@ -17,7 +17,7 @@ const Main = () => {
 					<h1 className="py-2 text-gray-700">A software engineer</h1>
 					<p className="py-4 text-gray-600 max-w-[70%] m-auto">
 						I'm a Software engineer specialzing in full-stack development. That
-						means I can build front-end, back-end, and devops. Basically, a
+						means I can build front-end, back-end, and dev-ops. Basically, a
 						unicorn, ya know? I'm partial to Javascript, Mongodb, and Nextjs,
 						but open to any stack 🤓
 					</p>

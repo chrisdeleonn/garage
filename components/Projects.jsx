@@ -1,6 +1,4 @@
 import React from "react";
-import Image from "next/image";
-import Link from "next/link";
 import rx7Img from "../public/assets/projects/rx7.jpeg";
 import cayman718Img from "../public/assets/projects/cayman718.jpeg";
 import mx5Img from "../public/assets/projects/og_miata.png";
@@ -8,7 +6,7 @@ import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
 	return (
-		<div className="w-full">
+		<div id="projects" className="w-full">
 			<div className="=max-w-[1240px] mx-auto px-2 py-16">
 				<p className="text-xl tracking-widest uppercase text-[#5651e5]">
 					Projects
