@@ -14,8 +14,8 @@ const About = () => {
 						Originally from Dallas, Texas. In 2021, I traveled to Boca Raton,
 						Florida for a Software engineer bootcamp. A month later, I landed my
 						first job at a local fintech company. I switched roles as a
-						technical recruiter. And now I'm back in engineering again 💻
-						Welcome!
+						technical recruiter for a little bit. And now I'm back in
+						engineering again 💻 Welcome!
 					</p>
 					<p className="py-2 text-gray-600 underline cursor-pointer">
 						Check out some of my latest projects
