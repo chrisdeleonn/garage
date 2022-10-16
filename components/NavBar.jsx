@@ -33,7 +33,10 @@ const NavBar = () => {
 			}
 		>
 			<div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-				<Image src="/../public/wife.jpg" alt="/" width="125" height="75" />
+				<Link href="">
+					<Image src="/../public/wife.jpg" alt="/" width="125" height="75" />
+				</Link>
+
 				<div>
 					<ul className="hidden md:flex">
 						<Link href="/">
@@ -75,7 +78,15 @@ const NavBar = () => {
 				>
 					<div>
 						<div className="flex w-full items-center justify-between">
-							<Image src="/../public/wife.jpg" width="87" height="35" alt="" />
+							<Link href="">
+								<Image
+									src="/../public/wife.jpg"
+									width="87"
+									height="35"
+									alt=""
+								/>
+							</Link>
+
 							<div
 								onClick={handleNav}
 								className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer"
@@ -94,16 +105,18 @@ const NavBar = () => {
 							<Link href="">
 								<li className="py-4 text-sm">Home</li>
 							</Link>
-							<Link href="">
-								<li className="py-4 text-sm">About</li>
+							<Link href="/#about">
+								<li onClick={() => setNav(false)} className="py-4 text-sm">
+									About
+								</li>
 							</Link>
-							<Link href="">
+							<Link href="/#skills">
 								<li className="py-4 text-sm">Skills</li>
 							</Link>
-							<Link href="">
+							<Link href="/#projects">
 								<li className="py-4 text-sm">Projects</li>
 							</Link>
-							<Link href="">
+							<Link href="/#contact">
 								<li className="py-4 text-sm">Contact</li>
 							</Link>
 						</ul>
