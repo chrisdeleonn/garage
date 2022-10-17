@@ -11,11 +11,10 @@ const About = () => {
 					<h2 className="py-4">Who I Am</h2>
 					<p className="py-2 text-gray-600">// The story starts here...</p>
 					<p>
-						Originally from Dallas, Texas. In 2021, I traveled to Boca Raton,
-						Florida for a Software engineer bootcamp. A month later, I landed my
-						first job at a local fintech company. I switched roles as a
-						technical recruiter for a little bit. And now I'm back in
-						engineering again 💻 Welcome!
+						Originally from Dallas, Texas. In 2021, I traveled to south Florida
+						for a coding bootcamp. I stayed in south Florida and ended up
+						getting a software job right after. My interests include edm music,
+						jdm cars, beach volleyball, and overall wellness(health nut).
 					</p>
 					<p className="py-2 text-gray-600 underline cursor-pointer">
 						Check out some of my latest projects

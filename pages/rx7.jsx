@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import rx7Img from "../assets/projects/rx7.jpeg";
+import rx7Img from "../public/assets/projects/rx7.jpeg";
 
-const property = () => {
+const rx7 = () => {
 	return (
 		<div className="w-full">
 			<div className="w-screen h-[30vh] lg:w-[40vh] relative">
@@ -18,4 +18,4 @@ const property = () => {
 	);
 };
 
-export default property;
+export default rx7;
