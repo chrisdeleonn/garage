@@ -47,18 +47,18 @@ const NavBar = () => {
 			style={{ backgroundColor: `${navBg}` }}
 			className={
 				shadow
-					? "fixed w-full h-20 shadow-xl z-[100]"
+					? "fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300"
 					: "fixed w-full h-20 z-[100]"
 			}
 		>
 			<div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-				<Link href="">
+				<Link href="/">
 					<Image src="/../public/wife.jpg" alt="/" width="125" height="75" />
 				</Link>
 
 				<div>
 					<ul style={{ color: `${linkcolor}` }} className="hidden md:flex">
-						<Link href="/">
+						<Link href="/#main">
 							<li className="ml-10 text-sm uppercase hover:border-b">Home</li>
 						</Link>
 						<Link href="/#about">
@@ -97,13 +97,15 @@ const NavBar = () => {
 				>
 					<div>
 						<div className="flex w-full items-center justify-between">
-							<Link href="">
-								<Image
-									src="/../public/wife.jpg"
-									width="87"
-									height="35"
-									alt=""
-								/>
+							<Link href="/">
+								<a>
+									<Image
+										src="/../public/wife.jpg"
+										width="87"
+										height="35"
+										alt=""
+									/>
+								</a>
 							</Link>
 
 							<div
