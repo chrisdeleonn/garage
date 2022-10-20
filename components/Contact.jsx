@@ -53,16 +53,20 @@ const Contact = () => {
 											<FaGithub />
 										</div>
 									</a>
-									<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-										<AiOutlineMail />
-									</div>
-									<Link href="/resume">
-										<a>
-											<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-												<BsFillPersonLinesFill />
-											</div>
-										</a>
-									</Link>
+									<a href="cdizzel@ymail.com" target="_blank" rel="noreferrer">
+										<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+											<AiOutlineMail />
+										</div>
+									</a>
+									<a
+										href="../assets/Chris_DeLeon_Resume_2022.pdf"
+										target="_blank"
+										rel="noreferrer"
+									>
+										<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+											<BsFillPersonLinesFill />
+										</div>
+									</a>
 								</div>
 							</div>
 						</div>

@@ -19,8 +19,7 @@ const Main = () => {
 					<p className="py-4 text-gray-600 sm:max-w-[70%] m-auto">
 						I'm a Software engineer specializing in full-stack development. That
 						means I can build front-end, back-end, and dev-ops. Basically, a
-						unicorn, ya know? I'm partial to Javascript, Mongodb, and Nextjs,
-						but open to any stack 🤓
+						unicorn, ya know? 🤓
 					</p>
 					<div className="flex items-center justify-between max-w-[330px] m-auto py-4">
 						<a
@@ -41,16 +40,21 @@ const Main = () => {
 								<FaGithub />
 							</div>
 						</a>
-						<Link href="/#contact">
+						<a href="cdizzel@ymail.com" target="_blank" rel="noreferrer">
 							<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
 								<AiOutlineMail />
 							</div>
-						</Link>
-						<Link href="/resume">
+						</a>
+
+						<a
+							href="../assets/Chris_DeLeon_Resume_2022.pdf"
+							target="_blank"
+							rel="noreferrer"
+						>
 							<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
 								<BsFillPersonLinesFill />
 							</div>
-						</Link>
+						</a>
 					</div>
 				</div>
 			</div>
