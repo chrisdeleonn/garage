@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import HouseImg from "../public/assets/house_me.jpg";
+import HouseImg from "../public/assets/house_me.JPG";
 
 const About = () => {
 	return (
