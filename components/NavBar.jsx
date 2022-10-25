@@ -154,18 +154,38 @@ const NavBar = () => {
 								Let's Connect
 							</p>
 							<div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-								<div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-									<FaLinkedinIn />
-								</div>
-								<div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-									<FaGithub />
-								</div>
-								<div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-									<AiOutlineMail />
-								</div>
-								<div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-									<BsFillPersonLinesFill />
-								</div>
+								<a
+									href="https://www.linkedin.com/in/chrisdeleonn/"
+									target="_blank"
+									rel="noreferrer"
+								>
+									<div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+										<FaLinkedinIn />
+									</div>
+								</a>
+								<a
+									href="https://github.com/chrisdeleonn"
+									target="_blank"
+									rel="noreferrer"
+								>
+									<div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+										<FaGithub />
+									</div>
+								</a>
+								<a href="cdizzel@ymail.com" target="_blank" rel="noreferrer">
+									<div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+										<AiOutlineMail />
+									</div>
+								</a>
+								<a
+									href="../assets/Chris_DeLeon_Resume_2022.pdf"
+									target="_blank"
+									rel="noreferrer"
+								>
+									<div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+										<BsFillPersonLinesFill />
+									</div>
+								</a>
 							</div>
 						</div>
 					</div>

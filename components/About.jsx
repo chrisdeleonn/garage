@@ -1,5 +1,7 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
+import HouseImg from "../public/assets/house_me.jpg";
 
 const About = () => {
 	return (
@@ -10,7 +12,7 @@ const About = () => {
 						About
 					</p>
 					<h2 className="py-4">Who I Am</h2>
-					<p className="py-2 text-gray-600">// The story starts here...</p>
+					<p className="py-2 text-gray-600">The story starts here...</p>
 					<p>
 						Originally from Dallas, Texas. In 2021, I traveled to south Florida
 						for a coding bootcamp. I stayed in south Florida and ended up
@@ -24,7 +26,7 @@ const About = () => {
 					</Link>
 				</div>
 				<div className=" w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify center p-4 hover:scale-105 ease-in duration-300">
-					<img className="rounded-xl" src="/../assets/house_me.jpg" alt="/" />
+					<Image className="rounded-xl" src={HouseImg} alt="/" />
 				</div>
 			</div>
 		</div>
