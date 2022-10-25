@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import houseImg from "../public/assets/house_me.JPG";
 import { useRouter } from "next/router";
 import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
@@ -53,7 +54,7 @@ const NavBar = () => {
 		>
 			<div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
 				<Link href="/">
-					<Image src="/../public/wife.jpg" alt="/" width="125" height="75" />
+					<Image src={houseImg} alt="/" width="125" height="75" />
 				</Link>
 
 				<div>
@@ -99,12 +100,7 @@ const NavBar = () => {
 						<div className="flex w-full items-center justify-between">
 							<Link href="/">
 								<a>
-									<Image
-										src="/../public/wife.jpg"
-										width="87"
-										height="35"
-										alt=""
-									/>
+									<Image src={houseImg} width="87" height="35" alt="" />
 								</a>
 							</Link>
 
