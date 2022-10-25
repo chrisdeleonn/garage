@@ -1,5 +1,7 @@
 import Link from "next/link";
 import React from "react";
+import Image from "next/image";
+import ContactImg from "../public/assets/contact.jpeg";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
@@ -18,9 +20,9 @@ const Contact = () => {
 					<div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
 						<div className="lg:p-4 h-full">
 							<div>
-								<img
+								<Image
 									className="rounded-xl hover:scale-105 ease-in duration-300"
-									src="/../assets/contact.jpeg"
+									src={ContactImg}
 									alt=""
 								/>
 							</div>
