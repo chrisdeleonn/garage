@@ -47,7 +47,7 @@ const Main = () => {
 						</a>
 
 						<a
-							href="../assets/Chris_DeLeon_Resume_2022.pdf"
+							href="../assets/Chris_DeLeon_Resume_2022_0.pdf"
 							target="_blank"
 							rel="noreferrer"
 						>
