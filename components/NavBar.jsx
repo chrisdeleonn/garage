@@ -168,7 +168,11 @@ const NavBar = () => {
 										<FaGithub />
 									</div>
 								</a>
-								<a href="cdizzel@ymail.com" target="_blank" rel="noreferrer">
+								<a
+									href="mailto:cdizzel@ymail.com"
+									target="_blank"
+									rel="noreferrer"
+								>
 									<div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
 										<AiOutlineMail />
 									</div>
