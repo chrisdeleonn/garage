@@ -15,9 +15,9 @@ const Main = () => {
 					<h1 className="py-4 text-gray-700">
 						Hi, my name is <span className="text-[#5651e5]">Chris</span>
 					</h1>
-					<h1 className="py-2 text-gray-700">A Software engineer</h1>
+					<h1 className="py-2 text-gray-700">A Software Engineer</h1>
 					<p className="py-4 text-gray-600 sm:max-w-[70%] m-auto">
-						I am a Software engineer specializing in full-stack development.
+						I am a Software Engineer specializing in full-stack development.
 						That means I can build front-end, back-end, and dev-ops. Basically,
 						a unicorn, ya know? 🤓
 					</p>
