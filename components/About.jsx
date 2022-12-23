@@ -14,14 +14,20 @@ const About = () => {
 					<h2 className="py-4">Who I Am</h2>
 					<p className="py-2 text-gray-600">The story starts here...</p>
 					<p>
-						Originally from Dallas, Texas. In 2021, I traveled to south Florida
-						for a coding bootcamp. I stayed in south Florida and ended up
-						getting a software job right after. My interests include edm music,
-						jdm cars, beach volleyball, and overall wellness(health nut).
+						I am originally from Dallas, Texas. In 2021, at the age of 29, I
+						traveled to Boca Raton for a coding bootcamp. I stayed and ended up
+						getting a software job right after. I tried my hand at a privately
+						held fintech company, but things did not work out. I then decided to
+						try technical recruiting, since I already had the technical
+						knowledge. It was more salesy than I had imagined. Currently, I am
+						playing beach volleyball and doing IT, hardware, and software
+						consulting. My interests include edm music, jdm cars, obviously
+						beach volleyball, rollerblading, roadtrips, weight lifting, and
+						healthy eating habits.
 					</p>
 					<Link href="/#projects">
 						<p className="py-2 text-gray-600 underline cursor-pointer">
-							Check out some of my latest projects
+							Check out some of my favorite cars
 						</p>
 					</Link>
 				</div>
